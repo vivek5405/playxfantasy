@@ -1,0 +1,14 @@
+.category_tab_wrapper{
+    /* You must set a specified height */
+   background-image: url('/png/home-tab/cricket-img1.png');
+   background-position: center; 
+   background-repeat: no-repeat; 
+   background-size: cover;
+   position: fixed;
+   z-index: 9;
+   padding-top:3px;
+   padding-bottom:10px;
+   width: 100%;
+   max-width: var(--maxWidth);
+   height: 70px;
+}

@@ -1,0 +1,21 @@
+
+.tab_icon {
+    width:20px;
+    height:20px;
+}
+
+.MuiTabs-indicator{
+    background: #fff !important;
+}
+
+.Mui-selected {
+    color: #fff !important;
+}
+
+.MuiTabs-flexContainer {
+    max-height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(2px);
+}

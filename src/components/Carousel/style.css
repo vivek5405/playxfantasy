@@ -1,0 +1,46 @@
+/* 
+.slider-image {
+    width:100%;
+    max-height:200px;
+}
+  
+.slider img {
+    width: 100%;
+    border-radius: 20px !important;
+    object-fit: cover;
+}
+   */
+
+.react-multi-carousel-dot button{
+  border-color:transparent !important;
+  display: none !important;
+}
+.react-multi-carousel-dot {
+  width: 8px;
+  height: 8px;
+  background: #BFC9E9 !important;
+  border-color:transparent !important;
+  border-radius:50%;
+  margin: 0 3px;
+}
+
+.react-multi-carousel-dot.react-multi-carousel-dot--active {
+    width: 24px !important;
+    height: 8px !important;
+    background: #405CBD !important;
+    border-color:transparent !important;
+    border-radius: 6px !important;
+}
+
+.crausel-wrapper{
+  padding: 0 15px;
+  overflow-x:hidden;
+}
+
+.crausel-image{
+  border-radius: 10px;
+  height: 70px;
+  width: 100%;
+  max-width: var(--maxWidth);
+}
+

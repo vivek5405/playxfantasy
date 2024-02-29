@@ -1,0 +1,196 @@
+.expert_main {
+    padding: 10px;
+}
+
+.expert_card {
+    width:100%;
+    height: 250px;
+    border-radius: 16px;
+    background:  #1B1C26;
+    box-shadow: 0px 3px 10px 0px #040506;
+    padding: 0px 14px 12px 14px;
+    position: relative;
+    margin: 10px 0;
+}
+
+.expert_card_title_wrapper {
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+}
+.expert_card_title_wrapper_icon {
+    position: absolute;
+    top: 0px;
+}
+.expert_card_title {
+    position: absolute;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3px;
+}
+
+.expert_card_title img {
+    width: 22px;
+    height: 22px;
+    margin-right: 9px;
+}
+
+.expert_card_title p {
+    color:  #F2F5FF;
+    font-family: var(--font1);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.024px;
+}
+
+.expert_card_data_wrapper {
+    width: 100%;
+    height: 125px;
+    border-radius: 16px;
+    background:  #5777E5;
+    box-shadow: 0px 3px 10px 0px rgba(4, 5, 6, 0.50);
+    transform: translateY(-20px);
+    z-index: 1;
+    display: flex;
+    padding-top: 28px;
+    overflow: hidden;
+}
+
+.expert_card_data_wrapper_avatar{
+    width: 78px;
+    height: 78px;
+    border-radius: 78px;
+    margin: 0 22px;
+    border: 2px solid black;
+}
+
+.expert_card_data_right {
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    padding-top: 3px;
+    max-width: 236px;
+    margin-left: auto;
+}
+
+.expert_card_data_right_name{
+    width: 236px;
+    height: 24px;
+    border-radius: 20px 0px 0px 20px;
+    background:  #161720;
+    box-shadow: -3px 3px 10px 0px rgba(50, 73, 154, 0.50);
+    color:  #F2F5FF;
+    font-family: var(--font1);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 0.021px;
+    padding-left: 14px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+}
+
+.expert_card_data_right_icon {
+    margin-left: 10px;
+
+}
+
+.expert_card_data_right_followers{
+    color:  #F2F5FF;
+    font-family: var(--font1);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 200% */
+    letter-spacing: 0.018px;
+    margin-left: 5px;
+}
+
+.expert_card_data_right_button {
+    width:fit-content;
+    height: 30px;
+    padding: 5px 15px;
+    border-radius: 30px;
+    background:  #ABC128;
+    box-shadow: 0px 3px 10px 0px rgba(50, 73, 154, 0.50);
+    color: var(--text-on-btn, #FFF);
+    font-family: var(--font1);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 0.014px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.expert_card_data_mid_wrapper {
+    transform: translateY(-12px);
+}
+
+.expert_card_data_mid_wrapper .button{
+    border-radius: 8px;
+    background:  #42434B;
+    height: 49px;
+    display: flex;
+    padding: 6px 0 6px 11px;
+}
+
+.expert_card_data_mid_wrapper .button .img_wrapper{
+    width: 37px;
+    height: 37px;
+    padding: 4px;
+    background-color: #1B1C26;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.expert_card_data_mid_wrapper .button img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+
+.expert_card_data_mid_wrapper .button .title{
+    color: #9BA0DB;
+    font-family: var(--font1);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px; /* 133.333% */
+    letter-spacing: 0.06px;
+}
+
+.expert_card_data_mid_wrapper .button .data{
+    color: #D9DEF2;
+    font-family: var(--font1);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 125% */
+}
+
+.expert_card .get_free_button{
+    width:100%;
+    height: 36px;
+    border-radius: 50px;
+    background-color:  #5777E5;
+    box-shadow: 0px 3px 10px 0px rgba(87, 119, 229, 0.25);
+    color: #FFF;
+    font-family: var(--font1);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    transform: translateY(-5px);
+}

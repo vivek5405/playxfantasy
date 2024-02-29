@@ -1,0 +1,321 @@
+.create_team_section1{
+    background: var(--primary-60-base, #5777E5);
+}
+
+
+.create_team_section2{
+    margin-top: 11px;
+    width: 100%;
+    height: calc(100svh - 350px);
+    overflow-y: auto !important;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    padding-bottom: 50px;
+ 
+}
+
+.create_team_section1 .topBar_section{
+    display: flex;
+    padding: 12px 12px 12px 5px;
+    align-items: center;
+}
+
+.create_team_section1 .topBar_section .faq{
+    color:  #F2F5FF;
+    font-family: var(--font1);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; 
+    letter-spacing: 0.014px;
+    width: 28px;
+    height: 28px;
+    background: #161720;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+}
+
+.create_team_section1 .teamDetail_wrapper {
+    display: flex;
+    padding: 0 20px;
+    align-items: center;
+    
+}
+
+.create_team_section1 .teamDetail_wrapper .teama_detail_section {
+    display: flex;
+    align-items: center;
+}
+
+.create_team_section1 .teamDetail_wrapper .teamb_detail_section {
+    display: flex;
+    align-items: center;
+    margin-left: auto !important;
+}
+.create_team_section1 .teamDetail_wrapper .teama_detail_section .flag_wrapper, .create_team_section1 .teamDetail_wrapper .teamb_detail_section .flag_wrapper {
+    width: 56px;
+    height: 56px;
+    background-color: rgb(171,187,242);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+}
+
+.create_team_section1 .teamDetail_wrapper .teama_detail_section .flag_wrapper  img, .create_team_section1 .teamDetail_wrapper .teamb_detail_section .flag_wrapper  img{
+    width: 46px;
+    height: 46px;
+    object-fit: contain;
+}
+
+.create_team_section1 .teamDetail_wrapper .teamb_detail_section {
+    margin-left: 20px;
+}
+
+.create_team_section1 .teamDetail_wrapper .teama_detail_section .teama_count {
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.23) -1.69%, rgba(217, 217, 217, 0.00) 100%);
+    width: 40px;
+    height: 29px;
+    transform: translateX(-5px);
+    color: #FFF;
+    font-family: var(--font1);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+}
+
+.create_team_section1 .teamDetail_wrapper .teamb_detail_section .teamb_count {
+    background: linear-gradient(270deg, rgba(255, 255, 255, 0.23) -1.69%, rgba(217, 217, 217, 0.00) 100%);
+    width: 40px;
+    height: 29px;
+    transform: translateX(5px);
+    color: #FFF;
+    font-family: var(--font1);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+}
+
+.create_team_section1 .teamDetail_wrapper .teama_detail_section .teama_details_wrapper {
+    border-radius: 4px;
+    background: var(--neutral-0, #161720);
+    box-shadow: -3px 3px 10px 0px rgba(50, 73, 154, 0.50);
+    width: 52px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+ .create_team_section1 .teamDetail_wrapper .teamb_detail_section .teamb_details_wrapper {
+    border-radius: 4px;
+    background:  #161720;
+    box-shadow: -3px 3px 10px 0px rgba(50, 73, 154, 0.50);
+    width: 52px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 10px;
+    
+}
+
+.create_team_section1 .teamDetail_wrapper .teama_detail_section .teama_details_wrapper .players_count_title, .create_team_section1 .teamDetail_wrapper .teamb_detail_section .teamb_details_wrapper .credit_left_title  {
+    color:  #878FD4;
+    font-family: var(--font1);
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px; /* 150% */
+    letter-spacing: 0.008px;
+}
+
+.create_team_section1 .teamDetail_wrapper .teama_detail_section .teama_details_wrapper .players_count, .create_team_section1 .teamDetail_wrapper .teamb_detail_section .teamb_details_wrapper .credit_left{
+    color:  #F2F5FF;
+    font-family: var(--font1);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 0.014px;
+    margin-top: 3px;
+}
+
+.create_team_section1 .team_name_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 28px;
+}
+
+.create_team_section1 .team_name_wrapper .team_name {
+    border-radius: 20px;
+    background:  #161720;
+    padding:3px 8px;
+    min-width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:  #F2F5FF;
+    font-family: var(--font1);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px; /* 133.333% */
+    letter-spacing: 0.06px;
+
+}
+
+.create_team_section1 .players_select_ui_arrorw_wrapper {
+    background:  #161720;
+    width: 100%;
+    padding: 8px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.create_team_section1 .players_select_ui_arrorw_wrapper .arrow{
+    position: relative;
+}
+
+.create_team_section1 .players_select_ui_arrorw_wrapper p {
+    position: absolute;
+    top: 2px;
+    left: 10px;
+    z-index: 1000;
+    color: var(--text-on-btn, #FFF);
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.014px;
+}
+
+.create_team_section1 .max_player_info_wrapper {
+    width: 100%;
+    background:  #5777E5;
+    padding: 11px 16px;
+    display: flex;
+    align-items: center;
+}
+
+.create_team_section1 .max_player_info_wrapper .max_palyer_info {
+    color:  #FFF;
+    font-family: var(--font1);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 150% */
+    letter-spacing: 0.012px;
+    margin-left: 8px;
+    margin-top: 4px;
+}
+
+.create_team_section1 .max_player_info_wrapper .clear_team_btn {
+    width: 113px;
+    height: 32px;
+    border-radius: 20px;
+    border: 1px solid #FFF;
+    background:  #4D5FB8;
+    color:  #FFF;
+    font-family: var(--font1);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.014px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+}
+
+.create_team_section1 .player_role_tab_wrapper {
+    background:  #161720;
+    padding: 0 2px;
+}
+
+.create_team_section1 .role_pick_limit_wrapper {
+    background:  #161720;
+    padding: 2px 16px;
+    display: flex;
+    align-items: center;
+}
+
+.create_team_section1 .role_pick_limit_wrapper p{
+    color:  #ABC128;
+    font-family: var(--font1);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px; /* 150% */
+    letter-spacing: 0.012px;
+}
+
+.create_team_section1 .role_pick_limit_wrapper p span {
+    color:  #5777E5;
+    font-family: var(--font1);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px; /* 150% */
+    letter-spacing: 0.012px;
+    margin-left: 4px;
+}
+
+
+.filter_wrapper_items{
+    display: flex;
+    align-items: center;
+    background: #161720;
+}
+
+.filter_wrapper_items p:nth-child(1){
+    width: 80px;
+}
+
+.filter_wrapper_items p:nth-child(2){
+    width: 90px;
+    display: flex;
+    align-items: start;
+    justify-content:left;
+}
+
+.filter_wrapper_items p:nth-child(3), .filter_wrapper_items p:nth-child(4){
+   display: flex;
+   flex: 1;
+   width: 60px;
+   text-align: center;
+}
+
+.filter_wrapper_items p:nth-child(5){
+    width: 25px;
+    margin: 0 10px 0  auto;
+}
+
+.sort_by_items{
+    color:  #D9DEF2;
+    font-family: var(--font1);
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 166.667% */
+    letter-spacing: 0.012px;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    cursor: pointer;
+}
